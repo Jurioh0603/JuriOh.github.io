@@ -310,7 +310,7 @@ const bigProjects = {
         },
         {
           name: "show More",
-          url: "http://nextu.se/"
+          url: ""
         }
       ]
     },
