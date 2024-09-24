@@ -32,9 +32,9 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.gmail ? (
+      {socialMediaLinks.mail ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
+          href={`mailto:${socialMediaLinks.mail}`}
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
@@ -127,6 +127,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.velog ? (
+              <a
+                href={socialMediaLinks.velog}
+                className="icon-button velog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-brands fa-vimeo"></i>
+                <span></span>
+              </a>
+            ) : null}
     </div>
   );
 }

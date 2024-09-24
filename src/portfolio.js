@@ -1,45 +1,42 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
+// 포트폴리오 색바꾸기
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation 애니메이션위해 파일 이름 바꾸기
 
-// Splash Screen
+// Splash Screen 화면효과
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true, // set false to disable splash screen 효과 끄고 싶으면 false
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000 // Set animation duration as per your animation 화면 효과 시간 조정
 };
 
-// Summary And Greeting Section
+// Summary And Greeting Section 요약과 소개
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true // Set to false to use static SVG 정적 파일 사용하려면 false
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "JuriOh",
+  title: "안녕하십니까 저는 신입 백엔드 개발자 오주리입니다.",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "원래 아이들을 가르치는 유치원 교사였던 저는 사람들과 함께 일하며 그 안에서 배움이 일어나고 성장하고 싶은 열망으로 가득차있었습니다. 우연히 지인으로부터 제가 추구하던 직업군과 유사한 개발자에 대해 알게되었습니다. 처음 java를 배우면서 그 어느때보다도 흥미를 느꼈던 저는 개발자에 대한 확실한 꿈을 가지게 되었습니다. 학원을 등록해 프로젝트를 3개 진행하며 자격증을 2개 취득하였고, 수료 후에는 더욱 깊은 학습을 원해 방송통신대학교 컴퓨터과학과에 편입하였습니다. 시작이 남들보다 늦은 만큼 열심히 배움을 이어가기 위해 최선을 다하고 있습니다."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button 버튼 숨기고 싶으면 empty set 아래에서 false
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Jurioh0603",
+  mail: "julioh0603@naver.com",
+  velog: "https://velog.io/@julioh0603/posts",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,22 +45,30 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skill Set",
+  subTitle: "배움이 즐거운 백엔드 개발자",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ 전자정부 표준프레임워크와 라이브러리인 Spring, java를 다룰 수 있습니다."),
+    emoji("⚡ mysql, oracle을 이용해 sql을 다룰 수 있습니다."),
+    emoji("⚡ 학습을 통해 습득하고 프로젝트 통해 활용해 본 기술입니다.")
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
+  /* Make Sure to include correct Font Awesome Classname to view your icon 아이콘 보려면 적합한 Font Awesome Classname를 설정해
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-brands fa-java"
+    },
+    {
+      skillName: "servlet and jsp",
+      fontAwesomeClassname: "fab fa-brands fa-java"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -73,48 +78,76 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "spring",
+      fontAwesomeClassname: "fas fa-solid fa-leaf fa-sm"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "spring boot",
+      fontAwesomeClassname: "fas fa-solid fa-leaf fa-sm"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "mybatis",
+      fontAwesomeClassname: "fas fa-sharp fa-solid fa-dove fa-sm"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "spring data jpa",
+      fontAwesomeClassname: "fas fa-database fa-sm"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "jquery",
+      fontAwesomeClassname: "fas fa-solid fa-rss fa-rotate-180 fa-sm"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "mysql",
+      fontAwesomeClassname: "fas fa-database fa-sm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "oracle",
+      fontAwesomeClassname: "fas fa-database fa-sm"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "intelliJ",
+      fontAwesomeClassname: "fas fa-solid fa-code fa-xs"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "eclipse",
+      fontAwesomeClassname: "fas fa-solid fa-code fa-xs"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "spring tool suite",
+      fontAwesomeClassname: "fas fa-solid fa-code fa-xs"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "apache tomcat",
+      fontAwesomeClassname: "fas fa-solid fa-server fa-sm"
+    },
+    {
+      skillName: "gradle",
+      fontAwesomeClassname: "fas fa-solid fa-republican fa-sm"
+    },
+    {
+      skillName: "erd cloud",
+      fontAwesomeClassname: "fas fa-solid fa-cloud fa-sm"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-brands fa-github"
+    },
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-brands fa-figma fa-sm"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-brands fa-bootstrap"
+    },
+    {
+      skillName: "aws s3",
+      fontAwesomeClassname: "fab fa-aws fa-sm"
+    },
+    {
+      skillName: "windows",
+      fontAwesomeClassname: "fab fa-brands fa-windows fa-sm"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +159,54 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "방송통신대학교",
+      subHeader: "컴퓨터과학과",
+      duration: "2024.08 ~ 현재",
+      desc: "편입하여 3학년 재학중"
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "배화여자대학교",
+      subHeader: "유아교육학과",
+      duration: "2020.03 ~ 2021.02"
+    },
+    {
+      schoolName: "용인송담대학교",
+      subHeader: "유아교육과",
+      duration: "2016.03 ~ 2019.02"
+    }
+  ],
+  educations: [
+    {
+      schoolName: "김영한의 Spring, JPA 로드맵",
+      subHeader: "인프런",
+      duration: "2024.07 ~ 현재",
+      desc: "Spring Boot, SpringMVC, JPA, JPA 성능 최적화, 스프링 데이터 JPA, HTTP 지식"
+    },
+    {
+      schoolName: "[K-Digital Training] 데이터 융합 JAVA 응용 S/W 개발자 기업 채용 연계 과정",
+      subHeader: "중앙정보기술인재개발원",
+      duration: "2024.01 ~ 2024.07",
+      desc: "java, sql, html, css, javascript, jsp, spring, spring boot, mybatis, jpa를 학습"
+    }
+  ],
+  certificates: [
+    {
+      schoolName: "정보처리기사",
+      subHeader: "한국산업인력공단",
+      duration: "2024.09.10",
+    },
+    {
+      schoolName: "SQLD",
+      subHeader: "한국데이터산업진흥원",
+      duration: "2024.07.28"
+    }
+  ],
+  awards: [
+    {
+      schoolName: "Take Eat (포장 전문 음식 주문 플랫폼)",
+      subHeader: "최우수상",
+      duration: "중앙정보기술인재개발원",
+      desc: "프로젝트의 주제선정, 구현기술, 팀워크 및 문제해결 능력, 완성도와 상용가능성에서 우수한 성적 달성"
     }
   ]
 };
@@ -150,7 +214,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -171,7 +235,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -206,34 +270,57 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/dokkyLogo.png"),
+      projectName: "DOKKY",
+      projectDesc: "학원 수강생들간의 의사소통이 가능한 커뮤니티 플랫폼",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "github",
+          url: "https://github.com/Jurioh0603/DOKKY.git"
+        },
+        {
+          name: "show More",
+          url: "http://"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/triplanLogo.png"),
+      projectName: "여정",
+      projectDesc: "여행 정보를 얻고, 실시간 채팅으로 사용자들과 소통하며, 여행 일정을 계획하고 공유하는 플랫폼",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "github",
+          url: "https://github.com/Jurioh0603/planner.git"
+        },
+        {
+          name: "show More",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/takeatLogo.png"),
+      projectName: "Take Eat",
+      projectDesc: "간편하게 포장주문, 빠른 픽업, 편리한 점주의 가게 등록 기능을 제공하는 음식 주문 플랫폼",
+      footerLink: [
+        {
+          name: "github",
+          url: "https://github.com/pickpong/takeeat.git"
+        },
+        {
+          name: "show More",
           url: "http://nextu.se/"
         }
       ]
@@ -300,7 +387,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -308,20 +395,20 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "저의 성장을 도와주는 공부 기록장입니다.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://velog.io/@julioh0603/%EC%8A%A4%ED%94%84%EB%A7%81-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%9B%90%EB%A6%AC-%EC%A0%81%EC%9A%A9",
+      title: "스프링 - 객체 지향 원리 적용",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "개요 이전에 만들었던 할인 정책을 확장해보자 주문시 VIP 회원 1,000원 할인 -> VIP 회원 10% 할인으로 변경할 예정이다. 개발 RateDiscountPolicy 퍼센트 할인율을 제공하는 로직을 추가로 작성한다. 이를 테스트 해본다. 테스트 방법은 생략"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://velog.io/@julioh0603/%EC%BD%94%ED%85%8C-%EC%A0%91%EB%AF%B8%EC%82%AC%EC%9D%B8%EC%A7%80-%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0",
+      title: "코테 - 접미사인지 확인하기",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "❓ 문제 이해하기 주어진 my_string의 접미사중 주어진 is_suffix가 있다면 1을 반환 그렇지 않으면 0을 반환하는 문제이다. 🔑 풀이 이전과 비슷하게 for문을 통해 String 변수에 접미사를 하나씩 저장하면서 if문을 통해 조건에 참인지 거짓인지 확인을 한다. 이때 참이면 answer에 1을 저장하고 break를 통해 반복문을 종료하여 성능을 조금이라도 향상시켜보고자 하였다."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +430,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +443,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +459,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "010-3359-4329",
+  email_address: "julioh0603@naver.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

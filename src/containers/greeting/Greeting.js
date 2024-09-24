@@ -25,7 +25,6 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
@@ -42,7 +41,7 @@ export default function Greeting() {
                 {greeting.resumeLink && (
                   <a
                     href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    download="입사지원서_오주리.pdf"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
