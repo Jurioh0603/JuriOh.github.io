@@ -20,17 +20,17 @@ export default function Education() {
           ))}
         </div>
         <h1 className="education-heading">Certificate</h1>
-          <div className="education-card-container">
-            {educationInfo.certificates.map((school, index) => (
-              <EducationCard key={index} school={school} />
-            ))}
-          </div>
-          <h1 className="education-heading">Award</h1>
-            <div className="education-card-container">
-              {educationInfo.awards.map((school, index) => (
-                <EducationCard key={index} school={school} />
-              ))}
-            </div>
+        <div className="education-card-container">
+          {educationInfo.certificates.map((school, index) => (
+            <EducationCard key={index} school={school} />
+          ))}
+        </div>
+        <h1 className="education-heading">Award</h1>
+        <div className="education-card-container">
+          {educationInfo.awards.map((school, index) => (
+            <EducationCard key={index} school={school} />
+          ))}
+        </div>
       </div>
     );
   }

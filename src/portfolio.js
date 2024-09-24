@@ -48,7 +48,9 @@ const skillsSection = {
   title: "Skill Set",
   subTitle: "배움이 즐거운 백엔드 개발자",
   skills: [
-    emoji("⚡ 전자정부 표준프레임워크와 라이브러리인 Spring, java를 다룰 수 있습니다."),
+    emoji(
+      "⚡ 전자정부 표준프레임워크와 라이브러리인 Spring, java를 다룰 수 있습니다."
+    ),
     emoji("⚡ mysql, oracle을 이용해 sql을 다룰 수 있습니다."),
     emoji("⚡ 학습을 통해 습득하고 프로젝트 통해 활용해 본 기술입니다.")
   ],
@@ -183,7 +185,8 @@ const educationInfo = {
       desc: "Spring Boot, SpringMVC, JPA, JPA 성능 최적화, 스프링 데이터 JPA, HTTP 지식"
     },
     {
-      schoolName: "[K-Digital Training] 데이터 융합 JAVA 응용 S/W 개발자 기업 채용 연계 과정",
+      schoolName:
+        "[K-Digital Training] 데이터 융합 JAVA 응용 S/W 개발자 기업 채용 연계 과정",
       subHeader: "중앙정보기술인재개발원",
       duration: "2024.01 ~ 2024.07",
       desc: "java, sql, html, css, javascript, jsp, spring, spring boot, mybatis, jpa를 학습"
@@ -193,7 +196,7 @@ const educationInfo = {
     {
       schoolName: "정보처리기사",
       subHeader: "한국산업인력공단",
-      duration: "2024.09.10",
+      duration: "2024.09.10"
     },
     {
       schoolName: "SQLD",
@@ -298,7 +301,8 @@ const bigProjects = {
     {
       image: require("./assets/images/triplanLogo.png"),
       projectName: "여정",
-      projectDesc: "여행 정보를 얻고, 실시간 채팅으로 사용자들과 소통하며, 여행 일정을 계획하고 공유하는 플랫폼",
+      projectDesc:
+        "여행 정보를 얻고, 실시간 채팅으로 사용자들과 소통하며, 여행 일정을 계획하고 공유하는 플랫폼",
       footerLink: [
         {
           name: "github",
@@ -313,7 +317,8 @@ const bigProjects = {
     {
       image: require("./assets/images/takeatLogo.png"),
       projectName: "Take Eat",
-      projectDesc: "간편하게 포장주문, 빠른 픽업, 편리한 점주의 가게 등록 기능을 제공하는 음식 주문 플랫폼",
+      projectDesc:
+        "간편하게 포장주문, 빠른 픽업, 편리한 점주의 가게 등록 기능을 제공하는 음식 주문 플랫폼",
       footerLink: [
         {
           name: "github",
@@ -394,8 +399,7 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    "저의 성장을 도와주는 공부 기록장입니다.",
+  subtitle: "저의 성장을 도와주는 공부 기록장입니다.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {

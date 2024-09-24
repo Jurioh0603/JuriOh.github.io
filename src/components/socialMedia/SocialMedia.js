@@ -129,16 +129,16 @@ export default function socialMedia() {
       ) : null}
 
       {socialMediaLinks.velog ? (
-              <a
-                href={socialMediaLinks.velog}
-                className="icon-button velog"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-brands fa-vimeo"></i>
-                <span></span>
-              </a>
-            ) : null}
+        <a
+          href={socialMediaLinks.velog}
+          className="icon-button velog"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-brands fa-vimeo"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }
