@@ -293,7 +293,7 @@ const bigProjects = {
         },
         {
           name: "show More",
-          url: "http://"
+          url: "https://Jurioh0603.github.io/JuriOh.github.io/pdf/JSP_Servlet_Project_DOKKY.pdf"
         }
         //  you can add extra buttons here.
       ]
