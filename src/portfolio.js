@@ -413,6 +413,12 @@ const blogSection = {
         "✍ 상황 포장 전문 플랫폼 프로젝트에서 내가 맡은 역할 중 사장님이 자신의 가게에 메뉴카테고리와 메뉴를 저장하는 과정에서 어려움을 겪었다. 원하는 형태를 예로 들면 카테고리1 = 메인메뉴 메뉴1 = 불고기버거 메뉴2 = 치즈버거 메뉴3=새우버거 카테고리2 = 음료 메뉴1 = 콜라 메뉴2 = 사이다 이렇게 JQuery의 ajax를 통해 서버로 보냈는데 이미지가 저장이 안되는 것이었다..😭 알고보니 이미지는 Binary Data 이기 때문에 json으로 포맷이 안되는 것이었다. ⭐ 시도1 - 분리해서 전송하기 이미지를 전송하는 부분은 formData로 직접 전송하고, 나머지 데이터는 기존처럼 JSON 형식으로 전송하는 방법을 시도했다."
     },
     {
+      url: "https://velog.io/@julioh0603/React%EB%A1%9C-github-Pages-%EB%B0%B0%ED%8F%AC-%EC%95%88%EB%90%A8-%ED%95%B4%EA%B2%B0",
+      title: "React로 github Pages 배포 안됨 해결",
+      description:
+        "⭐ 시도1 - 무작정 npm run deploy해보기말 그대로 무작정 cmd 프로젝트 디렉토리 위치에서 run deploy를 해보았다. 그런데 결과는 당연히 안됨. 배포도 그냥 하는게 아니구나 라는 것을 깨닫고 바로 구글링했다. 알고보니 나는 아직 빌드할 준비가 안되어있었던 것! ⭐ 시도2 - gh-page 브랜치 만들기 React 앱을 GitHub Pages에 배포하는 데 사용하는 도구인 gh-pages 패키지를 먼저 설치해야한다. cmd에 npm install gh-pages --save-dev 명령어를 입력해 프로젝트에 패키지를 설치하고, 프로젝트 내 package.json 파일에 다음과 같이 배포 스크립트를 입력한다."
+    },
+    {
       url: "https://velog.io/@julioh0603/%EC%8A%A4%ED%94%84%EB%A7%81-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%9B%90%EB%A6%AC-%EC%A0%81%EC%9A%A9",
       title: "스프링 - 객체 지향 원리 적용",
       description:
