@@ -22,7 +22,7 @@ const illustration = {
 
 const greeting = {
   username: "JuriOh",
-  title: "안녕하십니까 저는 신입 백엔드 개발자 오주리입니다.",
+  title: "신입 백엔드 개발자 오주리",
   subTitle: emoji(
     "아이들을 가르치는 유치원 교사였던 저는 사람들과 함께 일하며 그 안에서 배움이 일어나고 성장하고 싶은 열망으로 가득차있었습니다. 우연히 지인으로부터 제가 추구하던 직업군과 유사한 개발자에 대해 알게되었습니다. 처음 java를 배우면서 그 어느때보다도 흥미를 느꼈던 저는 개발자에 대한 확실한 꿈을 가지게 되었습니다. 학원을 등록해 프로젝트를 3개 진행하며 자격증을 2개 취득하였고, 수료 후에는 더욱 심화적인 학습을 원해 방송통신대학교 컴퓨터과학과에 편입하였습니다. 시작이 남들보다 늦은 만큼 열심히 배움을 이어가기 위해 최선을 다하고 있습니다."
   ),
@@ -322,11 +322,15 @@ const bigProjects = {
       footerLink: [
         {
           name: "github",
-          url: "https://github.com/pickpong/takeeat.git"
+          url: "https://github.com/Jurioh0603/takeeat.git"
         },
         {
           name: "show More",
           url: "http://nextu"
+        },
+        {
+          name: "Demo video",
+          url: "https://youtu.be/3SEjqJ-p8j0"
         }
       ]
     }
@@ -402,6 +406,12 @@ const blogSection = {
   subtitle: "저의 성장을 도와주는 공부 기록장입니다.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "https://velog.io/@julioh0603/%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%99%80-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%95%9C%EB%B2%88%EC%97%90-JSON%EC%9C%BC%EB%A1%9C-%EC%A0%84%EC%86%A1%ED%95%98%EA%B8%B0",
+      title: "TroubleShooting - 데이터와 이미지 한번에 JSON으로 전송하기",
+      description:
+        "✍ 상황 포장 전문 플랫폼 프로젝트에서 내가 맡은 역할 중 사장님이 자신의 가게에 메뉴카테고리와 메뉴를 저장하는 과정에서 어려움을 겪었다. 원하는 형태를 예로 들면 카테고리1 = 메인메뉴 메뉴1 = 불고기버거 메뉴2 = 치즈버거 메뉴3=새우버거 카테고리2 = 음료 메뉴1 = 콜라 메뉴2 = 사이다 이렇게 JQuery의 ajax를 통해 서버로 보냈는데 이미지가 저장이 안되는 것이었다..😭 알고보니 이미지는 Binary Data 이기 때문에 json으로 포맷이 안되는 것이었다. ⭐ 시도1 - 분리해서 전송하기 이미지를 전송하는 부분은 formData로 직접 전송하고, 나머지 데이터는 기존처럼 JSON 형식으로 전송하는 방법을 시도했다."
+    },
     {
       url: "https://velog.io/@julioh0603/%EC%8A%A4%ED%94%84%EB%A7%81-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%EC%9B%90%EB%A6%AC-%EC%A0%81%EC%9A%A9",
       title: "스프링 - 객체 지향 원리 적용",
