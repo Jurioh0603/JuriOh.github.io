@@ -326,11 +326,11 @@ const bigProjects = {
         },
         {
           name: "show More",
-          url: "http://nextu"
+          url: "https://Jurioh0603.github.io/JuriOh.github.io/pdf/SpringBoot_JPA_Project_TakeEat.pdf"
         },
         {
           name: "Demo video",
-          url: "https://Jurioh0603.github.io/JuriOh.github.io/pdf/SpringBoot_JPA_Project_TakeEat.pdf"
+          url: "https://youtu.be/3SEjqJ-p8j0"
         }
       ]
     }
