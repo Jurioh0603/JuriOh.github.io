@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JuriOh.github.io/static/css/main.021a3777.css",
+    "main.css": "/JuriOh.github.io/static/css/main.2de873e3.css",
     "main.js": "/JuriOh.github.io/static/js/main.7da0a952.js",
     "static/css/64.bba8fa55.chunk.css": "/JuriOh.github.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.a299d48b.chunk.js": "/JuriOh.github.io/static/js/64.a299d48b.chunk.js",
@@ -22,7 +22,7 @@
     "static/media/pwaLogo.webp": "/JuriOh.github.io/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/JuriOh.github.io/index.html",
     "static/media/talksCardBack.svg": "/JuriOh.github.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.021a3777.css.map": "/JuriOh.github.io/static/css/main.021a3777.css.map",
+    "main.2de873e3.css.map": "/JuriOh.github.io/static/css/main.2de873e3.css.map",
     "main.7da0a952.js.map": "/JuriOh.github.io/static/js/main.7da0a952.js.map",
     "64.bba8fa55.chunk.css.map": "/JuriOh.github.io/static/css/64.bba8fa55.chunk.css.map",
     "64.a299d48b.chunk.js.map": "/JuriOh.github.io/static/js/64.a299d48b.chunk.js.map",
@@ -30,7 +30,7 @@
     "769.42401060.chunk.js.map": "/JuriOh.github.io/static/js/769.42401060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.021a3777.css",
+    "static/css/main.2de873e3.css",
     "static/js/main.7da0a952.js"
   ]
 }
