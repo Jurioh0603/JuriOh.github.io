@@ -49,7 +49,7 @@ const skillsSection = {
   subTitle: "배움이 즐거운 백엔드 개발자",
   skills: [
     emoji(
-      "⚡ 전자정부 표준프레임워크와 라이브러리인 Spring, java를 다룰 수 있습니다."
+      "⚡ 전자정부표준프레임워크, 라이브러리인 Spring, java를 다룰 수 있습니다."
     ),
     emoji("⚡ mysql, oracle을 이용해 sql을 다룰 수 있습니다."),
     emoji("⚡ 학습을 통해 습득하고 프로젝트 통해 활용해 본 기술입니다.")
