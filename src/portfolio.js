@@ -289,11 +289,11 @@ const bigProjects = {
       projectDesc: "학원 수강생들간의 의사소통이 가능한 커뮤니티 플랫폼",
       footerLink: [
         {
-          name: "github",
+          name: "Github",
           url: "https://github.com/Jurioh0603/DOKKY.git"
         },
         {
-          name: "show More",
+          name: "Show More",
           url: "https://Jurioh0603.github.io/JuriOh.github.io/pdf/JSP_Servlet_Project_DOKKY.pdf"
         }
         //  you can add extra buttons here.
@@ -306,11 +306,11 @@ const bigProjects = {
         "여행 정보를 얻고, 실시간 채팅으로 사용자들과 소통하며, 여행 일정을 계획하고 공유하는 플랫폼",
       footerLink: [
         {
-          name: "github",
+          name: "Github",
           url: "https://github.com/Jurioh0603/planner.git"
         },
         {
-          name: "show More",
+          name: "Show More",
           url: "https://Jurioh0603.github.io/JuriOh.github.io/pdf/SpringBoot_Mybatis_Project_Triplan.pdf"
         }
       ]
@@ -322,15 +322,15 @@ const bigProjects = {
         "간편하게 포장주문, 빠른 픽업, 편리한 점주의 가게 등록 기능을 제공하는 음식 주문 플랫폼",
       footerLink: [
         {
-          name: "github",
+          name: "Github",
           url: "https://github.com/Jurioh0603/takeeat.git"
         },
         {
-          name: "show More",
+          name: "Show More",
           url: "https://Jurioh0603.github.io/JuriOh.github.io/pdf/SpringBoot_JPA_Project_TakeEat.pdf"
         },
         {
-          name: "Demo video",
+          name: "Demo Video",
           url: "https://youtu.be/3SEjqJ-p8j0"
         }
       ]
