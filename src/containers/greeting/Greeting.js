@@ -26,15 +26,20 @@ export default function Greeting() {
                 {" "}
                 {greeting.title}{" "}
               </h1>
+              {greeting.subTitle.map((subTitle, i) => {
+                              return (
               <p
+                key={i}
                 className={
                   isDark
                     ? "dark-mode greeting-text-p"
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {subTitle}
               </p>
+              );
+            })}
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
