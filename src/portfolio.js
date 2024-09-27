@@ -27,7 +27,8 @@ const greeting = {
     "아이들을 가르치는 유치원 교사였던 저는 사람들과 함께 일하며 그 안에서 배움이 일어나고 성장하고 싶은 열망으로 가득차있었습니다. 우연히 지인으로부터 제가 추구하던 직업군과 유사한 개발자에 대해 알게되었습니다. 처음 java를 배우면서 그 어느때보다도 흥미를 느꼈던 저는 개발자에 대한 확실한 꿈을 가지게 되었습니다. 학원을 등록해 프로젝트를 3개 진행하며 자격증을 2개 취득하였고, 수료 후에는 더욱 심화적인 학습을 원해 방송통신대학교 컴퓨터과학과에 편입하였습니다. 시작이 남들보다 늦은 만큼 열심히 배움을 이어가기 위해 최선을 다하고 있습니다."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button 버튼 숨기고 싶으면 empty set 아래에서 false
+    // "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
