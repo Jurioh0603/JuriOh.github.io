@@ -24,19 +24,13 @@ const greeting = {
   username: "JuriOh",
   title: "신입 백엔드 개발자 오주리",
   subTitle: [
-    emoji(
-      "⚡ 함께 일하고 배우고 성장하는 열망이 가득한 개발자"
-    ),
+    emoji("⚡ 함께 일하고 배우고 성장하는 열망이 가득한 개발자"),
     emoji(
       "⚡ java에 대한 흥미로 6개월 동안 프로젝트 3개, 정보처리기사, SQLD 자격증 취득"
     ),
-    emoji(
-      "⚡ 심화 학습을 위한 컴퓨터과학과 편입"
-    ),
-    emoji(
-      "⚡ 열심히 배움을 이어가기 위해 최선을 다하는 개발자"
-    )
-    ],
+    emoji("⚡ 심화 학습을 위한 컴퓨터과학과 편입"),
+    emoji("⚡ 열심히 배움을 이어가기 위해 최선을 다하는 개발자")
+  ],
   resumeLink:
     // "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
     "",
