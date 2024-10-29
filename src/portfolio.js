@@ -102,28 +102,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database fa-sm"
     },
     {
-      skillName: "jquery",
-      fontAwesomeClassname: "fas fa-solid fa-rss fa-rotate-180 fa-sm"
-    },
-    {
       skillName: "mysql",
       fontAwesomeClassname: "fas fa-database fa-sm"
     },
     {
       skillName: "oracle",
       fontAwesomeClassname: "fas fa-database fa-sm"
-    },
-    {
-      skillName: "intelliJ",
-      fontAwesomeClassname: "fas fa-solid fa-code fa-xs"
-    },
-    {
-      skillName: "eclipse",
-      fontAwesomeClassname: "fas fa-solid fa-code fa-xs"
-    },
-    {
-      skillName: "spring tool suite",
-      fontAwesomeClassname: "fas fa-solid fa-code fa-xs"
     },
     {
       skillName: "apache tomcat",
@@ -144,18 +128,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "figma",
       fontAwesomeClassname: "fab fa-brands fa-figma fa-sm"
-    },
-    {
-      skillName: "bootstrap",
-      fontAwesomeClassname: "fab fa-brands fa-bootstrap"
-    },
-    {
-      skillName: "aws s3",
-      fontAwesomeClassname: "fab fa-aws fa-sm"
-    },
-    {
-      skillName: "windows",
-      fontAwesomeClassname: "fab fa-brands fa-windows fa-sm"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -184,12 +156,6 @@ const educationInfo = {
     }
   ],
   educations: [
-    {
-      schoolName: "김영한의 Spring, JPA 로드맵",
-      subHeader: "인프런",
-      duration: "2024.07 ~ 현재",
-      desc: "Spring Boot, SpringMVC, JPA, JPA 성능 최적화, 스프링 데이터 JPA, HTTP 지식"
-    },
     {
       schoolName:
         "[K-Digital Training] 데이터 융합 JAVA 응용 S/W 개발자 기업 채용 연계 과정",
